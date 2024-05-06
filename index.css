@@ -1,0 +1,111 @@
+body {
+
+  background: linear-gradient(black, rgb(35, 35, 35));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 40vh;
+  width: 50vh;
+  border-radius: 25px;
+  margin: 0;
+
+  background: #161616;
+  filter: drop-shadow(0 0 0.75rem white);
+
+  z-index: 99999999;
+
+  cursor: pointer; 
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+
+}
+
+.vl {
+  border-left: 100px solid rgb(0, 128, 0);
+  height: 0px;
+}
+
+.text {
+
+  font-family: monospace!important;
+  font-size: 4em;
+  color: white;
+  filter: drop-shadow(0 0 0.75rem white);
+  cursor: pointer; 
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+
+}
+
+.sigma {
+
+  font-family: monospace!important;
+  font-size: 2em;
+  color: white;
+  filter: drop-shadow(0 0 0.75rem white);
+  cursor: pointer; 
+  -webkit-transition-property: all;
+   transition-property: all;
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+
+}
+
+.smalltext {
+  font-family: monospace!important;
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+  filter: drop-shadow(0 0 0.75rem white);
+  cursor: pointer; 
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+
+}
+
+
+
+
+
+/*--------------------------[cool lookin divider]----------------------*/
+
+
+.container:hover { 
+  transform: scale(110%); 
+}
+
+.sigma:hover { 
+  transform: scale(110%); 
+}
+
+.text:hover { 
+  transform: scale(110%); 
+}
+
